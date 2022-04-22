@@ -7,6 +7,9 @@ header{
     width: 100%;
     background-color: #2E3A46;
 }
+header img{
+    height: 70px;
+}
 
 .card{
     background-color: #2E3A46 !important;

@@ -12,7 +12,11 @@
 </head>
 <body>
     <div id="app">
-        <?php  include_once __DIR__ . '/partials/header.php'; ?>
+        <header>
+            <div class="d-flex">
+                <img src="img/spotify-logo.png" alt="sopity logo">
+            </div>
+        </header>
         <main>
             <div class="container-fluid">
                 <div class="row row-cols-5 p-5 gx-4">
@@ -21,7 +25,7 @@
                         <img :src="card.poster" class="card-img-top p-3" :alt="card.title">
                         <div class="card-body d-flex flex-column align-items-center pt-0 text-secondary">
                             <h5 class="card-title text-white">{{ card.title }}</h5>
-                            <p class="card-text">{{ card.author }}</p>
+                            <p class="card-text mb-0">{{ card.author }}</p>
                             <p class="card-text">{{ card.year }}</p>
                         </div>
                     </div>
