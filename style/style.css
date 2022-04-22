@@ -1,0 +1,13 @@
+body{
+    background-color: #1E2D3B;
+}
+
+header{
+    height: 8vh;
+    width: 100%;
+    background-color: #2E3A46;
+}
+
+.card{
+    background-color: #2E3A46 !important;
+}
