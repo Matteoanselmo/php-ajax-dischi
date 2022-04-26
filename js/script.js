@@ -7,7 +7,7 @@ const app = new Vue(
         },
         created(){
             // CHIAMATA AXIOS;
-            axios.get('http://localhost:80/php-ajax-dischi-/server/controller.php').then(
+            axios.get('http://localhost:80/php-ajax-dischi/server/controller.php').then(
                 (result) => {
                     this.musicCard = result.data.results.reverse();
                     console.log(result);
